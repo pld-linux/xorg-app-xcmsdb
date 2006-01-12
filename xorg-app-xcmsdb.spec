@@ -1,12 +1,12 @@
 Summary:	xcmsdb application
 Summary(pl):	Aplikacja xcmsdb
 Name:		xorg-app-xcmsdb
-Version:	0.99.2
+Version:	1.0.1
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/xcmsdb-%{version}.tar.bz2
-# Source0-md5:	4571428cb4fd2ef7926b0b2f79457b25
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/xcmsdb-%{version}.tar.bz2
+# Source0-md5:	8579d5f50ba7f0c4a5bf16b9670fea01
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -44,6 +44,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*.1x*
