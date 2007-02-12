@@ -1,5 +1,5 @@
 Summary:	xcmsdb application
-Summary(pl.UTF-8):   Aplikacja xcmsdb
+Summary(pl.UTF-8):	Aplikacja xcmsdb
 Name:		xorg-app-xcmsdb
 Version:	1.0.1
 Release:	1
