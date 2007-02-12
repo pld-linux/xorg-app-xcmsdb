@@ -1,5 +1,5 @@
 Summary:	xcmsdb application
-Summary(pl):	Aplikacja xcmsdb
+Summary(pl.UTF-8):   Aplikacja xcmsdb
 Name:		xorg-app-xcmsdb
 Version:	1.0.1
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xcmsdb application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xcmsdb.
 
 %prep
