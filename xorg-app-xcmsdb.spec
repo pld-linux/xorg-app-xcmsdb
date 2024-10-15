@@ -1,12 +1,12 @@
 Summary:	xcmsdb - Device Color Characterization utility for X Color Management System
 Summary(pl.UTF-8):	xcmsdb - charakterystyka kolorów urządzeń dla systemu zarządzania kolorami X
 Name:		xorg-app-xcmsdb
-Version:	1.0.6
+Version:	1.0.7
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	https://xorg.freedesktop.org/releases/individual/app/xcmsdb-%{version}.tar.xz
-# Source0-md5:	82a90e2feaeab5c5e7610420930cc0f4
+# Source0-md5:	37063ccf902fe3d55a90f387ed62fe1f
 URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
